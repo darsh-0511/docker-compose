@@ -3,17 +3,26 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build":"npx -b",
+    "start" : "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darsh-0511/docker-compose.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darsh-0511/docker-compose/issues"
+  },
+  "homepage": "https://github.com/darsh-0511/docker-compose#readme",
   "description": "",
   "dependencies": {
-    "@prisma/client": "^6.9.0",
+    "@prisma/client": "^6.11.1",
     "@types/express": "^5.0.3",
     "express": "^5.1.0",
-    "prisma": "^6.9.0",
+    "prisma": "^6.11.1",
     "typescript": "^5.8.3"
   }
 }
